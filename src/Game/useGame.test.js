@@ -33,7 +33,7 @@ describe("useGame", () => {
     const { result } = renderedHook;
     act(() => {
       result.current.onSquareClick(0, PLAYER_1); // PLAYER_1 = X
-      result.current.onSquareClick(1, PLAYER_2); // PLAYER_1 = O
+      result.current.onSquareClick(1, PLAYER_2); // PLAYER_2 = O
     });
     expect(result.current.gameState.squares[0]).toBe("X");
     expect(result.current.gameState.squares[1]).toBe("O");
