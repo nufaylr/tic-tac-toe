@@ -2,6 +2,7 @@ const O = ({ width, colour, strokeWidth }) => (
   <svg
     viewBox="0 0 24 24"
     style={{ width: width ? `${width}` : "150px", margin: "auto" }}
+    data-testid="test-icon-o"
   >
     <circle
       cx="12"
