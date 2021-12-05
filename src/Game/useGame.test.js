@@ -63,7 +63,7 @@ describe("useGame", () => {
   });
 
   test("check for ties", () => {
-    // tesging ties combination [0,1][2,4],[3,5][7,6][8]
+    // testing ties combination [0,1][2,4],[3,5][7,6][8]
     const { result } = renderedHook;
     act(() => {
       result.current.onSquareClick(0, PLAYER_1);
