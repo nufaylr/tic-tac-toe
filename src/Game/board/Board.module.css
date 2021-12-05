@@ -8,7 +8,6 @@
   background: #fff;
   color: #fff;
   transition: width 0.3s 0.2s cubic-bezier(0.4, 0, 0.5, 1.2), box-shadow 0.3s;
-  box-shadow: 0 0 0 6px;
 }
 
 .strike_win__012::before {
@@ -17,7 +16,7 @@
 }
 
 .strike_win__345::before {
-  width: 100%;
+  width: 97%;
   top: calc(50% - 1px);
 }
 
@@ -35,15 +34,15 @@
 }
 
 .strike_win__147::before {
-  width: 106%;
+  width: 84%;
   top: 0;
   transform: rotate(90deg);
   transform-origin: 0 0;
-  left: calc(50% + 1px);
+  left: calc(51% + 1px);
 }
 
 .strike_win__258::before {
-  width: 85%;
+  width: 84%;
   top: 0;
   transform: rotate(90deg);
   transform-origin: 0 0;
@@ -58,8 +57,8 @@
 
 .strike_win__246::before {
   bottom: 0;
-  transform: rotate(-39deg);
+  transform: rotate(-40deg);
   transform-origin: calc(0% - 3px) 30%;
   width: 127%;
-  left: 0px;
+  left: 3px;
 }

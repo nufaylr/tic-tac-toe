@@ -16,6 +16,7 @@ const Board = ({ children, winCombination, boardOverlay }) => {
         rounded="md"
         boxShadow="dark-lg"
         p={2}
+        data-testid="test-board-squares"
       >
         {children}
       </SimpleGrid>

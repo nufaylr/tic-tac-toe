@@ -14,11 +14,11 @@ const BoardOverlay = ({ message, onRest }) => {
     >
       <Center m="10" color="white">
         <Text fontSize="4xl" fontWeight="extrabold">
-          {message}
+          {message.toUpperCase()}
         </Text>
       </Center>
       <Center>
-        <Button colorScheme="teal" size="lg" onClick={onRest}>
+        <Button colorScheme="pink" size="lg" onClick={onRest}>
           Play Again
         </Button>
       </Center>
