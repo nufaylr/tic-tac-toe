@@ -1,0 +1,65 @@
+.strike_container::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  width: 0;
+  height: 15px;
+  opacity: 0.5;
+  background: #fff;
+  color: #fff;
+  transition: width 0.3s 0.2s cubic-bezier(0.4, 0, 0.5, 1.2), box-shadow 0.3s;
+  box-shadow: 0 0 0 6px;
+}
+
+.strike_win__012::before {
+  width: 100%;
+  top: calc((100% / 6) - 1px);
+}
+
+.strike_win__345::before {
+  width: 100%;
+  top: calc(50% - 1px);
+}
+
+.strike_win__678::before {
+  width: 100%;
+  top: calc((100% - 100% / 6) - 1px);
+}
+
+.strike_win__036::before {
+  width: 106%;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  left: calc((100% / 6) + 1px);
+}
+
+.strike_win__147::before {
+  width: 106%;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  left: calc(50% + 1px);
+}
+
+.strike_win__258::before {
+  width: 85%;
+  top: 0;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  left: calc((100% - 100% / 6) + 1px);
+}
+
+.strike_win__048::before {
+  transform: rotate(40deg);
+  transform-origin: 1% 50%;
+  width: 126%;
+}
+
+.strike_win__246::before {
+  bottom: 0;
+  transform: rotate(-39deg);
+  transform-origin: calc(0% - 3px) 30%;
+  width: 127%;
+  left: 0px;
+}
