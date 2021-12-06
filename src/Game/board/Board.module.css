@@ -7,7 +7,6 @@
   opacity: 0.5;
   background: #fff;
   color: #fff;
-  transition: width 0.3s 0.2s cubic-bezier(0.4, 0, 0.5, 1.2), box-shadow 0.3s;
 }
 
 .strike_win__012::before {
