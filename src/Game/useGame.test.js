@@ -54,14 +54,6 @@ describe("useGame", () => {
     }
   );
 
-  test("winning combination", () => {
-    const { result } = renderedHook;
-    act(() => {
-      result.current.onSquareClick(0, PLAYER_1); // PLAYER_1 = X
-      result.current.onSquareClick(1, PLAYER_2); // PLAYER_2 = O
-    });
-  });
-
   test("check for ties", () => {
     // testing ties combination [0,1][2,4],[3,5][7,6][8]
     const { result } = renderedHook;

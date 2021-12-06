@@ -1,4 +1,3 @@
-import "@testing-library/jest-dom/extend-expect";
 import { cleanup, render, fireEvent } from "@testing-library/react";
 import PlayerPanel from "./PlayerPanel";
 import { PLAYER_1 } from "./";

@@ -1,4 +1,3 @@
-import "@testing-library/jest-dom/extend-expect";
 import { cleanup, render } from "@testing-library/react";
 import PlayerSquare from "./PlayerSquare";
 import { PLAYER_1, PLAYER_2 } from "./";
